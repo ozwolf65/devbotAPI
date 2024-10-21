@@ -16,3 +16,9 @@ Then modify the following values in `api.py`:
 - ORIGINS: The origins that are allowed to access the API.
 - PUBLIC_KEY: Public key for your desired web push service.
 - PRIVATE_KEY: Private key for your desired web push service.
+
+Finally start the application locally using:
+```bash
+poetry shell
+uvicorn api:app --host 0.0.0.0 --port 8080
+```
