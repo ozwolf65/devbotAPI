@@ -1,0 +1,7 @@
+.idea
+.venv
+
+# gcloud specific files
+.gcloudignore
+app.yaml
+requirements.txt
